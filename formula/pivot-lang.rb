@@ -5,11 +5,18 @@
 class PivotLang < Formula
   desc "Pivot-lang 二次元指定编程语言"
   homepage "https://github.com/Pivot-Studio/pivot-lang"
-  url "https://github.com/Pivot-Studio/pivot-lang/archive/ubuntu-latest-99@051569c.tar.gz"
-  sha256 "a1bf6436b8c0677b979764c5f3b432839c9b8712272a82e01fc417a39e972c57"
+  url "https://github.com/Pivot-Studio/pivot-lang/archive/cibuild155.tar.gz"
+  sha256 "118e79b66cba53fb4bf4770e1629d37f67f60b8f6fe78eea71aef84c881f5bed"
   license "MIT"
 
   depends_on "llvm@14"
+
+  on_macos do
+    on_intel do
+      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/cibuild155/pivot-lang-cibuild155-darwin-amd64.tar.gz"
+      sha256 "7b7cc05776af9c10bf6fc55ed02e9cdce880e20c20229540ca3018a828e93206"
+    end
+  end
 
   def install
     prefix.install Dir["linux64/*"]
