@@ -19,8 +19,7 @@ class PivotLang < Formula
   end
 
   def install
-    prefix.install Dir["./*"]
-    bin.install Dir["./plc"]
-    ENV["FUCK"] = "VALUE"
+    opt_prefix.install Dir["./*"]
+    bin.install "./plc"
   end
 end
