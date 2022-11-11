@@ -21,4 +21,3 @@ brew search pivot-studio/tap
 | [pivot-lang](https://github.com/Pivot-Studio/pivot-lang) | Pivot-lang 二次元指定编程语言 | `brew install pivot-lang` |
 <!-- project_table_end -->
 
-
