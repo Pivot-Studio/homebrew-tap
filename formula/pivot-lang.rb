@@ -19,7 +19,8 @@ class PivotLang < Formula
   end
 
   def install
-    prefix.install Dir["./*"]
+    lib.install Dir["./planglib"]
+    lib.install "./libvm.a"
     bin.install "./plc"
   end
 end
