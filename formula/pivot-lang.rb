@@ -19,7 +19,7 @@ class PivotLang < Formula
   end
 
   def install
-    opt_prefix.install Dir["./*"]
+    prefix.install Dir["./*"]
     bin.install "./plc"
   end
 end
