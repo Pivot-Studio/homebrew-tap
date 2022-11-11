@@ -22,8 +22,8 @@ class PivotLang < Formula
     lib.install Dir["./planglib"]
     lib.install "./libvm.a"
     bin.install "./plc"
-    system "echo 'export KAGARI_LIB_ROOT=$(brew --prefix pivot-lang)/lib/planglib' >> ~/.bash_profile"
-    system "echo 'export PL_ROOT=$(brew --prefix pivot-lang)/lib' >> ~/.bash_profile"
-    system "echo '\033[0;32minstall success, please restart your terminal!\033[0m'"
+    system "bash", "-c", "echo 'export KAGARI_LIB_ROOT=$(brew --prefix pivot-lang)/lib/planglib' >> ~/.bash_profile"
+    system "bash", "-c", "echo 'export PL_ROOT=$(brew --prefix pivot-lang)/lib' >> ~/.bash_profile"
+    system "bash", "-c", "echo '\033[0;32minstall success, please restart your terminal!\033[0m'"
   end
 end
