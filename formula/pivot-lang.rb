@@ -5,15 +5,23 @@
 class PivotLang < Formula
   desc "Pivot-lang 二次元指定编程语言"
   homepage "https://github.com/Pivot-Studio/pivot-lang"
-  url "https://github.com/Pivot-Studio/pivot-lang/archive/v0.1.158.tar.gz"
-  sha256 "11ad4540d3e0d9e3dcc9ff795cb7bf6acbace73d48dbce08a590c0aeef6feaad"
+  url "https://github.com/Pivot-Studio/pivot-lang/archive/v0.1.160.tar.gz"
+  sha256 "9875d80f069e0acd349ca98ae83e63c0955c07004ac5d643c403711a6b483d9d"
   license "MIT"
 
   depends_on "llvm@14"
 
+  on_macos do
+
+    on_arm do
+      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.160/pivot-lang-0.1.160-darwin-arm64.tar.gz"
+      sha256 "c47e99d58eb4101c51265ef16286abd8875a16cf5c1300e3aa3ef2baceb438e9"
+    end
+  end
+
   def install
     lib.install Dir["./planglib"]
-lib.install "./libvm.a"
-bin.install "./plc"
+    lib.install "./libvm.a"
+    bin.install "./plc"
   end
 end
