@@ -12,7 +12,7 @@ class PivotLang < Formula
   depends_on "llvm@14"
 
   on_macos do
-    on_intel do
+    on_arm do
       url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.156/pivot-lang-0.1.156-darwin-amd64.tar.gz"
       sha256 "52cf6413da68c91ff3a8aafb654f3762c7d885b2247fbfb03b31a9c7d21929c7"
     end
