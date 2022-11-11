@@ -19,6 +19,6 @@ class PivotLang < Formula
   end
 
   def install
-    prefix.install LICENSE
+    prefix.install Dir["./*"]
   end
 end
