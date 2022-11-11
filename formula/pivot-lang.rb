@@ -24,7 +24,7 @@ class PivotLang < Formula
     bin.install "./plc"
   end
   def caveats
-    s = <<-EOS.undent
+    s = <<~EOS
     \033[0;32m安装完成，请运行下方命令添加环境变量\033[0m
       echo 'export KAGARI_LIB_ROOT=$(brew --prefix pivot-lang)/lib/planglib' >> ~/.bash_profile
       echo 'export PL_ROOT=$(brew --prefix pivot-lang)/lib' >> ~/.bash_profile
