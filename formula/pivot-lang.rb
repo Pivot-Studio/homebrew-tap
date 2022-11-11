@@ -19,6 +19,6 @@ class PivotLang < Formula
   end
 
   def install
-    prefix.install Dir["linux64/*"]
+    prefix.install Dir["*"]
   end
 end
