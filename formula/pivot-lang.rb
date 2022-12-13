@@ -5,8 +5,8 @@
 class PivotLang < Formula
   desc "Pivot-lang 二次元指定编程语言"
   homepage "https://github.com/Pivot-Studio/pivot-lang"
-  url "https://github.com/Pivot-Studio/pivot-lang/archive/v0.1.193.tar.gz"
-  sha256 "bd73bc0012609c47c2fba6e0399826faed2eff47e8b223ef3bf3c7b0cd300c05"
+  url "https://github.com/Pivot-Studio/pivot-lang/archive/v0.1.194.tar.gz"
+  sha256 "b2593238a4ca24c49df6f9374dcf602a4c153e5067ca21bece89d41b43d8561e"
   license "MIT"
 
   depends_on "llvm@14"
@@ -14,8 +14,8 @@ class PivotLang < Formula
   on_macos do
 
     on_arm do
-      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.193/pivot-lang-0.1.193-darwin-arm64.tar.gz"
-      sha256 "f5f1bb4ff1f68577c857d3759dd6e09e23fc3ebb761218c138be10ec60ccbea9"
+      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.194/pivot-lang-0.1.194-darwin-arm64.tar.gz"
+      sha256 "3f86fc0e56dce56414ff72dddaa944f342f277149d7e725dd27757efe9f9cd66"
     end
   end
 
