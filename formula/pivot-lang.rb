@@ -8,6 +8,7 @@ class PivotLang < Formula
   url "https://github.com/Pivot-Studio/pivot-lang/archive/v0.1.240.tar.gz"
   sha256 "8176b368fff11cd3e69f879a1122c57e376680958200c01c1413f33eddee6aaa"
   license "MIT"
+  version "v0.1.240"
 
   on_macos do
 
