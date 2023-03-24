@@ -5,19 +5,19 @@
 class PivotLang < Formula
   desc "Pivot-lang 二次元指定编程语言"
   homepage "https://github.com/Pivot-Studio/pivot-lang"
-  url "https://github.com/Pivot-Studio/pivot-lang/archive/v0.1.286.tar.gz"
-  sha256 "b39fcac89d219627987caa6f4d168974e886c69d4124cabdda466e9677ebd982"
+  url "https://github.com/Pivot-Studio/pivot-lang/archive/v0.1.287.tar.gz"
+  sha256 "5bf93302c0a69209c00795c4550da1e56c109e703eb128f2197b5b451a9fe4e7"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.286/pivot-lang-0.1.286-darwin-amd64.tar.gz"
-      sha256 "7e738cf5090ef04d73c97e13194d5d5a0b2ce8f757a68c7234e300b00b2c8d95"
+      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.287/pivot-lang-0.1.287-darwin-amd64.tar.gz"
+      sha256 "961771d28953abdda940e8420cd2c6dafcdb9896d8b3f6039ecd71656c7193bb"
     end
 
     on_arm do
-      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.286/pivot-lang-0.1.286-darwin-arm64.tar.gz"
-      sha256 "00f12a89e6e251d7c81beab91be21b281e439057a77d1b6578a52ae6cf60ed1a"
+      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.287/pivot-lang-0.1.287-darwin-arm64.tar.gz"
+      sha256 "bfe6a921d43e0c1a9b5ef1cfbf5648dfa4e90a415e15a7f5aefe6b68742204dd"
     end
   end
 
