@@ -15,8 +15,8 @@ brew search pivot-studio/tap
 ```
 
 <!-- project_table_start -->
-| Project                                                  | Description               | Install                   |
-| -------------------------------------------------------- | ------------------------- | ------------------------- |
-| []()                                                     |                           | `brew install `           |
-| [pivot-lang](https://github.com/Pivot-Studio/pivot-lang) | Https://langpivotstudiocn | `brew install pivot-lang` |
+| Project                                                  | Description                                            | Install                   |
+| -------------------------------------------------------- | ------------------------------------------------------ | ------------------------- |
+| []()                                                     |                                                        | `brew install `           |
+| [pivot-lang](https://github.com/Pivot-Studio/pivot-lang) | Rust-like language with immix gc and other cool stuffs | `brew install pivot-lang` |
 <!-- project_table_end -->
