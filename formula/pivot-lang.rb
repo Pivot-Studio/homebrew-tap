@@ -5,19 +5,19 @@
 class PivotLang < Formula
   desc "Rust-like language with immix gc and other cool stuffs"
   homepage "https://github.com/Pivot-Studio/pivot-lang"
-  url "https://github.com/Pivot-Studio/pivot-lang/archive/v0.1.380.tar.gz"
-  sha256 "2cb96d42cdc899344156e72b8a04350b87fdd438f0a05da4cd4b57e614bf1950"
+  url "https://github.com/Pivot-Studio/pivot-lang/archive/v0.1.381.tar.gz"
+  sha256 "28ac04cf94dbcd28d4f3e31be1be8258d93bb523dc27876273d8b3380bfccaad"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.380/pivot-lang-0.1.380-darwin-amd64.tar.gz"
-      sha256 "e226230fd2b836716386fd8ef47298cd97b94126b4847af798b5058a1fa778a2"
+      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.381/pivot-lang-0.1.381-darwin-amd64.tar.gz"
+      sha256 "02380ef64372d25eec71fe75dd4abde34cf873137f9cd6f8511bea2d07e2824e"
     end
 
     on_arm do
-      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.380/pivot-lang-0.1.380-darwin-arm64.tar.gz"
-      sha256 "bc049fa346655d9881ec0ca44b55eb9873f8eecb91a099aa088a09941a4a1df1"
+      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.381/pivot-lang-0.1.381-darwin-arm64.tar.gz"
+      sha256 "c7a3fe821a25310e6d89b89e2373c0eb5ec7732c435b5474981ce1bd9a077ed3"
     end
   end
 
