@@ -5,25 +5,22 @@
 class PivotLang < Formula
   desc "Rust-like language with immix gc and other cool stuffs"
   homepage "https://github.com/Pivot-Studio/pivot-lang"
-  url "https://github.com/Pivot-Studio/pivot-lang/archive/v0.1.437.tar.gz"
-  sha256 "3b9e24ce8b58aaa6267541aa3701c6af3a6d308765724de6da74662b47af2cd7"
+  url "https://github.com/Pivot-Studio/pivot-lang/archive/v0.1.448.tar.gz"
+  sha256 "c41832e5c2cc6bde8de3a368bd8508419a4bf1f6fb62b8b10702aa8bf58d3b44"
   license "MIT"
 
   on_macos do
-    on_intel do
-      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.437/pivot-lang-0.1.437-darwin-amd64.tar.gz"
-      sha256 "712d87a923d513b874a0038f4a234cefb6bfbd95b3a940d953f6f7e94f562b63"
-    end
 
     on_arm do
-      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.437/pivot-lang-0.1.437-darwin-arm64.tar.gz"
-      sha256 "08cefd704b0a8c178c8d1a4561aef5087f15cb5acc25538fc3cd393130b2916f"
+      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.448/pivot-lang-0.1.448-darwin-arm64.tar.gz"
+      sha256 "e6d4b5b8ab4cbeef76ae7720f61d29aa04bc591a3b001501ec55bed101545db9"
     end
   end
 
   def install
     lib.install Dir["./planglib"]
     lib.install "./libvm.a"
+    lib.install "./libvm.dylib"
     bin.install "./plc"
   end
 
