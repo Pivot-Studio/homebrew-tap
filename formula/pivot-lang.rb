@@ -5,15 +5,15 @@
 class PivotLang < Formula
   desc "Rust-like language with immix gc and other cool stuffs"
   homepage "https://github.com/Pivot-Studio/pivot-lang"
-  url "https://github.com/Pivot-Studio/pivot-lang/archive/v0.1.457.tar.gz"
-  sha256 "9de5c37d46563e3a67c59969abcd9ff2257d48ec522ae7988bbd8e030d45a492"
+  url "https://github.com/Pivot-Studio/pivot-lang/archive/v0.1.458.tar.gz"
+  sha256 "bd2c886cefceaf930db314a6e30c98c2cb2d02f18fda99ff537bb19b5065ae27"
   license "MIT"
 
   on_macos do
 
     on_arm do
-      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.457/pivot-lang-0.1.457-darwin-arm64.tar.gz"
-      sha256 "93365292fbdcec184f40bfe22ddeb317c95b7e835d68e1a2fbd2e1ce0acf26fc"
+      url "https://github.com/Pivot-Studio/pivot-lang/releases/download/v0.1.458/pivot-lang-0.1.458-darwin-arm64.tar.gz"
+      sha256 "9a2fa8cee725e75ef53a8a93bc182078985214f2eb975830303cbc604a7f47c5"
     end
   end
 
