@@ -9,6 +9,8 @@ class PivotLang < Formula
   sha256 "8707b833a80cb3731c4d2be86d7b6dde8ae495e500865877251a99671c0887c8"
   license "MIT"
 
+  depends_on "zstd"
+
   on_macos do
 
     on_arm do
@@ -19,9 +21,9 @@ class PivotLang < Formula
 
   def install
     lib.install Dir["./planglib"]
-    lib.install "./libvm.a"
-    lib.install "./libvm.dylib"
-    bin.install "./plc"
+lib.install "./libvm.a"
+lib.install "./libvm.dylib"
+bin.install "./plc"
   end
 
   def caveats
